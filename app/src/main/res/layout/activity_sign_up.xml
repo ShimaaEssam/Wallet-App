@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".SignUpActivity">
+<LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingTop="30dp"
+>
+    <ImageView
+            android:layout_width="100dp"
+            android:background="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="80dp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gotosignup"
+            android:gravity="center"
+            android:textColor="@color/background"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:layout_marginBottom="25dp"
+            android:textSize="30dp"
+
+    />
+
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signupSpinner"
+            android:spinnerMode="dropdown"
+            android:layout_marginBottom="15dp"
+            android:padding="15dp"
+            android:background="@drawable/edittxt_item"
+            android:entries="@array/myarray"
+    />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signupName"
+            android:background="@drawable/edittxt_item"
+            android:hint="@string/name"
+            android:padding="15dp"
+            android:layout_marginBottom="15dp"
+            android:textColorHint="@color/darkgrey"
+    />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signupNumber"
+            android:background="@drawable/edittxt_item"
+            android:hint="@string/phoneNumber"
+            android:padding="15dp"
+            android:layout_marginBottom="15dp"
+            android:textColorHint="@color/darkgrey"
+    />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signupId"
+            android:background="@drawable/edittxt_item"
+            android:hint="@string/nationalID"
+            android:padding="15dp"
+            android:layout_marginBottom="15dp"
+            android:textColorHint="@color/darkgrey"
+    />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signup_Btn"
+            android:text="@string/signup_button"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:background="@drawable/button_item"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signupLogin"
+            android:text="@string/gotologin"
+            android:textColor="@color/background"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="22dp"
+
+    />
+</LinearLayout>
+</ScrollView>

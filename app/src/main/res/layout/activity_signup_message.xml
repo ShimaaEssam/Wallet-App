@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".SignupMessageActivity">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_gravity="center"
+                      android:background="@drawable/message_item"
+                      android:layout_marginLeft="40dp"
+                      android:layout_marginRight="40dp">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/thanks"
+                      android:layout_marginTop="10dp"
+                      android:padding="10dp"
+                      android:textColor="@color/background"
+                      android:gravity="center"
+                      android:textSize="25dp"
+
+            />
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/username"
+                      android:text="shimaa essam"
+                      android:gravity="center"
+                      android:textColor="@color/background"
+                      android:textSize="20dp"
+            />
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_message"
+                    android:textColor="@color/background"
+                    android:padding="15dp"
+                    android:textSize="25dp"
+            />
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map"
+                    android:drawableRight="@drawable/locationicon"
+                    android:gravity="center"
+                    android:id="@+id/map"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/background"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:layout_marginTop="10dp"
+
+            />
+
+        </LinearLayout>
+
+    </FrameLayout>

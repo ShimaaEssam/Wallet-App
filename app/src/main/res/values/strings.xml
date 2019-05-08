@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Wallet</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="phoneNumber">رقم الهاتف المحمول</string>
+    <string name="password">كلمة السر</string>
+    <string name="nationalID">الرقم القومى</string>
+    <string name="country">إسم البلد</string>
+    <string name="name">الأسم بالكامل</string>
+    <string name="nameEmpty">الرجاء إدخال الأسم</string>
+    <string name="register_message">برجاء التوجه الى أقرب فرع لشركة AMDKZ لإستكمال بياناتك .</string>
+    <string name="thanks">شكرا لتسجيلك معنا يا</string>
+    <string name="login_button">تسجيل الدخول</string>
+    <string name="gotosignup">إنشاء حساب جديد</string>
+    <string name="signup_button">إنشاء حساب</string>
+    <string name="gotologin">إضغط لتسجيل الدخول</string>
+    <string-array name="myarray">
+        <item>إضغط لاختيار البلد</item>
+        <item>مصر</item>
+        <item>الأردن</item>
+    </string-array>
+    <string name="map">إضغط لمشاهدة الموقع</string>
+
+    <!--Home Activity-->
+    <string name="dashboard">الرئيسية</string>
+    <string name="trasfer">تحويل الرصيد</string>
+    <string name="reports">التقارير</string>
+    <string name="welcome">مرحبا بك</string>
+    <string name="logout">الخروج</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Dashboard Fragment-->
+    <string name="operationstatement">عدد العمليات التى تمت اليوم</string>
+    <string name="operation">عملية</string>
+    <string name="transfered">تم تحويله اليوم</string>
+    <string name="egp">جنيه</string>
+    <string name="creidt">الرصيد المتاح</string>
+    <string name="operationCount">اخر العمليات التى تم اجراؤها</string>
+
+
+    <!--Transfer Fragment-->
+    <string-array name="companyarray">
+        <item>vodafone</item>
+        <item>etisalat</item>
+        <item>orange</item>
+        <item>we</item>
+    </string-array>
+    <string name="enterNumber">إدخل الرقم</string>
+    <string name="entermoney">إدخل المبلغ</string>
+    <string name="send">إرسال</string>
+
+    <!--Reports Fragment-->
+    <string name="numberR">الرقم</string>
+    <string name="countR">المبلغ</string>
+    <string name="statusR">الحالة</string>
+    <string name="DateR">التاريخ</string>
+    <string name="timeR">الوقت</string>
+
+</resources>
